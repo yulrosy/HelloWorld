@@ -14,11 +14,7 @@ public class FindDuplicateCharacters {
         char[] chars = s.toCharArray();
         Map<Character,Integer> map = new HashMap<>();
         for(char c : chars){
-            if(map.containsKey(c)){
-                map.put(c,map.get(c) + 1);
-            }else{
-                map.put(c,1);
-            }
+            map.put(c, map.containsKey(c) ? map.get(c) + 1 : 1);
         }
 
         int flag = 0;
