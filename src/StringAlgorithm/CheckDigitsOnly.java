@@ -18,8 +18,4 @@ public class CheckDigitsOnly {
     public static boolean checkContainsDigitOnly(String s){
         return s.matches("\\d+");
     }
-
-    public static void main(String[] args) {
-        System.out.println(checkContainsDigitOnly("22321"));
-    }
 }
