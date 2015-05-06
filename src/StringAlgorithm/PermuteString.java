@@ -40,9 +40,4 @@ public class PermuteString {
         sb.setCharAt(a, sb.charAt(b));
         sb.setCharAt(b, temp);
     }
-
-    public static void main(String[] args) throws Exception {
-        permute("aca");
-    }
-
 }
