@@ -29,8 +29,4 @@ public class FindDuplicateCharacters {
             System.out.println("There're no duplicate characters in the string");
         }
     }
-
-    public static void main(String[] args) {
-        printDuplicateCharacters("");
-    }
 }
