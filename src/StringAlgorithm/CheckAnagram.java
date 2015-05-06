@@ -2,9 +2,6 @@ package StringAlgorithm;
 
 import java.util.Arrays;
 
-/**
- *
- */
 public class CheckAnagram {
 
     public static boolean isAnagram(String s,String an){
