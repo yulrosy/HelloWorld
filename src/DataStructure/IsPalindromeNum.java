@@ -12,7 +12,6 @@ public class IsPalindromeNum {
             reverse = reverse * 10 + n % 10;
             n /= 10;
         }
-//        System.out.println("反转后为：" + reverse);
         return reverse;
     }
 }
